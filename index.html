@@ -3,21 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live Weather - Phnom Penh</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="weather/weather.css">
+    <link rel="stylesheet" href="book/book.css">
+    <link rel="stylesheet" href="movie/movie.css">
 </head>
 <body>
     <div class="container">
-        <h2>Weather in Phnom Penh</h2>
-        <div class="weather-info">
-            <p id="date-time"></p>
-            <img id="weather-icon" src="" alt="Weather Icon">
-            <h1 id="temperature"></h1>
-            <p id="description"></p>
-            <p id="humidity"></p>
-            <p id="wind"></p>
+        <h1>Weather</h1>
+        <div id="weather-box" class="weather-box">
+        </div>
+        <h1>5 Day more</h1>
+        <div id="weather-data" class="weather-data">
         </div>
     </div>
-    <script src="script.js"></script>
+
+    <div class="container">
+        <h1>Book</h1>
+        <div id="book-results" class="book-results"></div> 
+    </div>
+
+    <div class="container">
+        <h1>Movie</h1>
+        <div id="weather-box" class="weather-box">
+        </div>
+    </div>
+
+    <script src="weather/weather.js"></script>
+    <script src="book/book.js"></script>
+    <script src="movie/movie.js"></script>
 </body>
 </html>
